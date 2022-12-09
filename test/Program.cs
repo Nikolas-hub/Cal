@@ -10,6 +10,7 @@ namespace test
             while (true)
             {
                 Console.Clear();
+		Console.WriteLine("Коля писюн");
                 Console.WriteLine("Выберите операцию:\n1. Сложение\n2. Вычитание\n3. Деление\n4. Выход");
                 string number = Console.ReadLine();
                 Console.Clear();
