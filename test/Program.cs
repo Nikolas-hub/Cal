@@ -71,7 +71,7 @@ namespace test
                         double b = double.Parse(Console.ReadLine());
                         Console.Clear();
 
-                        Console.WriteLine($"Ответ: {a / b}");
+                        Console.WriteLine($"Ответ: {Math.Round(a / b,3)}");
                         Console.ReadLine();
                     }
                     catch
